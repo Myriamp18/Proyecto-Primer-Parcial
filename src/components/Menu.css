@@ -1,5 +1,5 @@
 .navbar{
-    background: #5e14d4;
+    background: #06040a;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@
     position: absolute;
     top:60px;
     left: 0;
-    background: rgb(192, 96, 233);
+    background: rgb(40, 39, 41);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -67,7 +67,7 @@
     display: none;
    }
 
-   .nav_items.open > span:nth-child(3){
+   .nav_toggle.open > span:nth-child(3){
     transform: rotate(-45deg) translate(-5px, 1px);
    }
 }
