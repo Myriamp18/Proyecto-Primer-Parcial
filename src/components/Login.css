@@ -1,3 +1,4 @@
+@media (min-width: 601px){
 .container{
     display: flex;
     flex-direction: column;
@@ -6,6 +7,8 @@
     width: 600px;
     background-color: #fff;
     padding-bottom: 30px;
+    
+    
 }
 
 .header{
@@ -66,6 +69,8 @@
     margin-top: 27px;
     color: #797979;
     font-size: 18px;
+    
+
 }
 
 .forgot-password span{
@@ -74,7 +79,7 @@
 }
 
 .submit-container{
-    display: felx;
+    display: flex;
     gap: 30px;
     margin: 60px auto;
 }
@@ -91,4 +96,5 @@
     font-size: 19px;
     font-weight: 300;
     cursor: pointer;
+}
 }
