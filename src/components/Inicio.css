@@ -32,7 +32,10 @@
     margin-top: 100px;
     position: relative;
     left: 100px;
+    max-width: 100%;
+    height: auto;
 }
+
 
 .input input{
     width: 500px; 
@@ -43,7 +46,7 @@
     position: relative;
     top: -400px; /* Mueve el input hacia abajo 20 píxeles */
     left: 300px; /* Mueve el input hacia la derecha 30 píxeles */
-
+    
 }
 
 .submit{
