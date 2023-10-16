@@ -1,0 +1,65 @@
+
+
+.sub{
+    color: #3c009d;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.texto{
+    color: #080112;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    display: flex;
+    width: 480px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 60px;
+    font-weight: bold;
+    
+  
+}
+
+.img-1 {
+
+    margin: 10px;
+    padding: 10px;
+    margin-top: 100px;
+    position: relative;
+    left: 100px;
+}
+
+.input input{
+    width: 500px; 
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(220, 200, 236);
+    position: relative;
+    top: -400px; /* Mueve el input hacia abajo 20 píxeles */
+    left: 300px; /* Mueve el input hacia la derecha 30 píxeles */
+
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+    top: -300px; /* Mueve el input hacia abajo 20 píxeles */
+    left: 800px; /* Mueve el input hacia la derecha 30 píxeles */
+
+}
