@@ -20,7 +20,7 @@ const Inicio = () => {
         <img src={IA_1} alt=''/>
         </div>
         
-        <div className="input">
+        <div className="inputs">
         <input type="CONTENEDOR" placeholder='Descripcion de fotografía IA  a generar'/>
         </div>
         <div className="submit" onClick={handleRedireccion}>GENERAR</div>
