@@ -11,31 +11,43 @@ const Login =() => {
         // Para redirigir a otra página, usa la función navigate.
         navigate('/Menu');
     };
+    const handleRedireccionRE = () => {
+        // Para redirigir a otra página, usa la función navigate.
+        navigate('/Registro');
+    };
 
     return (
+        
         <div className='container'>
-            <div className="header">
-                <div className="text">LOGIN</div>
+        <div className="header">
+        <div className="text">LOGIN</div>
                 <div className="underline"></div>
                 </div>
-                <div className="inputs">
-                    <div className="input">
+      <form onSubmit={handleRedireccion}>
+      <div className="pop">
+      <div className="input">
                         <img src={email_icon} alt=''/>
-                        <input type="email" placeholder='Correo Electronico'/>
-                    </div>
-                    <div className="input">
+                        <input type="usuario" placeholder='Nombre de Usuario '/>
+                        </div>
+        <br />
+        <div className="input">
                         <img src={password_icon} alt=''/>
                         <input type="password" placeholder='Contraseña'/>
                     </div>
-                </div>
-            
-            <div className="forgot-password"></div>
+                    </div>
+        <br />
+      
+        <div className="forgot-password">
             <div className="submit-container">
-                <div className="submit" onClick={handleRedireccion}>Iniciar Sesion</div>
+                <button className="submits" onClick={handleRedireccion}>Iniciar Sesion</button>
+                <button className="submits" onClick={handleRedireccionRE} >Registarse</button>
             </div>
-            
             </div>
-    );
+         
+      </form>
+    </div>
+  );
 };
+ 
 
 export default Login;
