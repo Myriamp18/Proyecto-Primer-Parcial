@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import "./Menu.css"
-import Inicio from "./Inicio"
+import Inicio from "./Inicio";
+
 
 
 
@@ -12,10 +13,15 @@ const Menu = () => {
         <div className="navbar">
             <div className="nav_logo">MENU</div>
             <div className={`nav_items ${isOpen ? "open" : ""}`}>
-                <a href="#">INICIO</a>
-                <a href="#">PERFIL</a>
-                <a href="#">CONFIGURACIONES</a>
-                <a href="#">AYUDA</a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                             <a href="#">INICIO</a>
+                         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                    <a href="#">PERFIL</a>
+                      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a href="#">CONFIGURACIONES</a>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                           <a href="#">AYUDA</a>
+
                 
             </div>
             <div className={`nav_toggle ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(!isOpen)}>
